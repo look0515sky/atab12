@@ -19,11 +19,11 @@ echo '{
                         "dest": 3001
                     },
                     {
-                        "path": "/$id-trojan",
+                        "path": "/trojan",
                         "dest": 3002
                     },
                     {
-                        "path": "/$id-vmess",
+                        "path": "/vmess",
                         "dest": 3003
                     }
                 ]
@@ -64,7 +64,7 @@ echo '{
                 "network": "ws",
                 "security": "none",
                 "wsSettings": {
-                    "path": "/$id-trojan"
+                    "path": "/trojan"
                 }
             }
         },
@@ -83,7 +83,7 @@ echo '{
                 "network": "ws",
                 "security": "none",
                 "wsSettings": {
-                    "path": "/$id-vmess"
+                    "path": "/vmess"
                 }
             }
         }
